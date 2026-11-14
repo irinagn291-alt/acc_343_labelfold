@@ -1,0 +1,1 @@
+Guarda i consulta etiquetes d'aliments, compara productes i revisa les coincidències amb els al·lèrgens seleccionats.

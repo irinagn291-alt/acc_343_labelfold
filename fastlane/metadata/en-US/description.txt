@@ -1,0 +1,11 @@
+LabelFold is a food-label collection for people who want to look up packaged foods, keep notes, compare nutrients and follow selected allergens.
+
+• Search “Open Food Facts” by name, brand or barcode, or use “Scan”.
+• Keep labels in a “Collection”, bookmark and filter them, and add a “Personal note”.
+• Read an “Ingredient list”, nutrition per 100 g or 100 ml, “Nutri-Score” when provided, declared allergens and possible traces.
+• Select allergens in “My allergens” and see matching tags on labels and in “Side by side”.
+• Compare two labels’ nutrients and allergen profiles when their nutrition units match.
+• Use “Available offline” starter products and previously opened labels.
+• View “Bookmarked labels” in a widget.
+
+Open Food Facts is community-maintained. Allergen tags may be incomplete; check the current packaging before purchase.

@@ -1,0 +1,15 @@
+{
+  "version": "c155ca9b67c442f8aff37d3557bb25ad",
+  "locales": [
+    "ca"
+  ],
+  "files": {
+    "metadata/review_information/notes.txt": "8a095a696dc79ecd0e5b91b8ce61a5f9c88bf2ce44646c2a8622f604767e0c70",
+    "metadata/primary_category.txt": "06eeacb5e4d94f68585720337ef8b65d3a5458fb285e406105f2436fc07bacc9",
+    "metadata/ca/subtitle.txt": "f5983fd6c93ba4de25321bc505ac8ef471a3aea07bbce77eb988b5922e591d5e",
+    "metadata/ca/description.txt": "c9ec387d399d3929630a054c908a888d3892e8be8edb4c5a64740d9ab893488b",
+    "metadata/ca/keywords.txt": "2a09bf6e04748ebb69c0482447841f70dc7df8c4b15c4608597ba40c57fcdbc4",
+    "metadata/ca/promotional_text.txt": "891e5935993892e2a3674cdf11a4cb9fac2f8f5bcfcf6c39959ac54cff3cc006",
+    "metadata/ca/release_notes.txt": "7bfb6e932898d37c9cb7d4c20a192f4c0e9c01af09ff2db5bc87a8bd95542a86"
+  }
+}

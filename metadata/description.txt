@@ -1,0 +1,11 @@
+Guarda etiquetes d'aliments i consulta ingredients, informació nutricional i al·lèrgens amb LabelFold. L'aplicació utilitza registres de productes d'Open Food Facts i està disponible en anglès per a iPhone i iPad.
+
+Cerca productes per nom, marca o codi de barres, o tria un dels sis registres inclosos disponibles sense connexió. També pots escanejar codis de barres en dispositius compatibles. Les imatges dels productes poden requerir connexió a internet.
+
+A la col·lecció pots filtrar les etiquetes, marcar preferits i afegir notes personals. Cada etiqueta mostra les dades disponibles del producte, inclosos els ingredients, els valors nutricionals per 100 g o 100 ml i el Nutri-Score, quan consta al registre.
+
+Selecciona les categories d'al·lèrgens que vols tenir presents i consulta les coincidències amb els al·lèrgens declarats i les possibles traces. Compara dos productes desats per veure'n els valors nutricionals i els resums d'al·lèrgens. Si un producte es mesura per pes i l'altre per volum, pots consultar les etiquetes per separat.
+
+El widget mostra un resum dels preferits i obre la col·lecció amb el filtre de preferits seleccionat.
+
+Open Food Facts és una base de dades mantinguda per la comunitat i les etiquetes poden ser incompletes. Comprova sempre l'envàs actual del producte.

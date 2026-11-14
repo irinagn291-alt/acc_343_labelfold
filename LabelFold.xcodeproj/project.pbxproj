@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C32BE154B813A03F42B5D16 /* LabelFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D8236291B830FCA5AA5FC4 /* LabelFold.swift */; };
+		62177651CED0AF8455C3871C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FE6F5AFCC011C19C7386AC89 /* PrivacyInfo.xcprivacy */; };
+		627BF4CE577424F34D3FFDEC /* StarterCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = C88DE2003845365701A74864 /* StarterCatalog.json */; };
+		65242DBD21064CED5B83A023 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FE6F5AFCC011C19C7386AC89 /* PrivacyInfo.xcprivacy */; };
+		7427DB5C2CFD094944AFEB98 /* CatalogJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1263CD94983E7F0207F50E11 /* CatalogJourney.swift */; };
+		92607249A41E282FCB63A4C7 /* LabelFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA206CD3B50F5C40CD9EFF3D /* LabelFoldTests.swift */; };
+		95F0CD56CF7F1764C0B2FF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E71495DA8BB9F93DDD90049 /* Assets.xcassets */; };
+		B7A61E742C8CED8ED3755E0C /* LabelFoldWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CA5B56DA03B9C4B1F10B1CD8 /* LabelFoldWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E7C2FB64D33A6C8D0A48CD25 /* LabelFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D8236291B830FCA5AA5FC4 /* LabelFold.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		363C544DFE6BCC73256C58AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FEFCCE686E1862F93A5A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6592F264A313128BD40A5E0B;
+			remoteInfo = LabelFold;
+		};
+		3C13DC1B6999636CEB2F4AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FEFCCE686E1862F93A5A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E99B14987FF8FB05C0FE61;
+			remoteInfo = LabelFoldWidget;
+		};
+		5290BB4F41E7C66ED2953492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FEFCCE686E1862F93A5A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6592F264A313128BD40A5E0B;
+			remoteInfo = LabelFold;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F921E53F174F7E792EC3DF59 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B7A61E742C8CED8ED3755E0C /* LabelFoldWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1263CD94983E7F0207F50E11 /* CatalogJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogJourney.swift; sourceTree = "<group>"; };
+		2E71495DA8BB9F93DDD90049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35D8236291B830FCA5AA5FC4 /* LabelFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFold.swift; sourceTree = "<group>"; };
+		756F432FCF7D577D41B0F3D6 /* LabelFoldTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LabelFoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7B0A951BB7FEDFF8D2F339 /* LabelFoldUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LabelFoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88DE2003845365701A74864 /* StarterCatalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarterCatalog.json; sourceTree = "<group>"; };
+		CA5B56DA03B9C4B1F10B1CD8 /* LabelFoldWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LabelFoldWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE477FB3BC4CE036DF4B9C6A /* LabelFold.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LabelFold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA206CD3B50F5C40CD9EFF3D /* LabelFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFoldTests.swift; sourceTree = "<group>"; };
+		FE6F5AFCC011C19C7386AC89 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		31BD39157D98BB77D2FB6051 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				2E71495DA8BB9F93DDD90049 /* Assets.xcassets */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		6185403F8E46DC1554864C38 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1263CD94983E7F0207F50E11 /* CatalogJourney.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		6667DF440B2C067B162D4D71 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				C88DE2003845365701A74864 /* StarterCatalog.json */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		8327B208F6B0E6BF0739CB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE477FB3BC4CE036DF4B9C6A /* LabelFold.app */,
+				756F432FCF7D577D41B0F3D6 /* LabelFoldTests.xctest */,
+				7C7B0A951BB7FEDFF8D2F339 /* LabelFoldUITests.xctest */,
+				CA5B56DA03B9C4B1F10B1CD8 /* LabelFoldWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B69FCB76A75AB9109815D2E1 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA206CD3B50F5C40CD9EFF3D /* LabelFoldTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F906FFE5008135930024B54E = {
+			isa = PBXGroup;
+			children = (
+				35D8236291B830FCA5AA5FC4 /* LabelFold.swift */,
+				6667DF440B2C067B162D4D71 /* Catalog */,
+				FE469A0DB6DDF5BD5F58A606 /* Config */,
+				31BD39157D98BB77D2FB6051 /* Phone */,
+				B69FCB76A75AB9109815D2E1 /* Tests */,
+				6185403F8E46DC1554864C38 /* UITests */,
+				8327B208F6B0E6BF0739CB65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE469A0DB6DDF5BD5F58A606 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FE6F5AFCC011C19C7386AC89 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15E99B14987FF8FB05C0FE61 /* LabelFoldWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192A3F0290E408E29F81C3F5 /* Build configuration list for PBXNativeTarget "LabelFoldWidget" */;
+			buildPhases = (
+				5755537C05E00AA782075BEE /* Sources */,
+				CA9D25ED103860454CD907C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabelFoldWidget;
+			packageProductDependencies = (
+			);
+			productName = LabelFoldWidget;
+			productReference = CA5B56DA03B9C4B1F10B1CD8 /* LabelFoldWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		475C99A8C14F4BFEF34EF8CF /* LabelFoldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCEA868B609CBD046025919 /* Build configuration list for PBXNativeTarget "LabelFoldUITests" */;
+			buildPhases = (
+				A24DE1B5D9C88E2B524C946C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493095C2059F2D43E0B3AF1E /* PBXTargetDependency */,
+			);
+			name = LabelFoldUITests;
+			packageProductDependencies = (
+			);
+			productName = LabelFoldUITests;
+			productReference = 7C7B0A951BB7FEDFF8D2F339 /* LabelFoldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6592F264A313128BD40A5E0B /* LabelFold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7185407F6A955A244C139F /* Build configuration list for PBXNativeTarget "LabelFold" */;
+			buildPhases = (
+				E4F97D2E1009A99204ADB9C0 /* Sources */,
+				722901CEC8D94247BE0B5581 /* Resources */,
+				F921E53F174F7E792EC3DF59 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D207C3EBD2FD0EFB3B9B38E2 /* PBXTargetDependency */,
+			);
+			name = LabelFold;
+			packageProductDependencies = (
+			);
+			productName = LabelFold;
+			productReference = CE477FB3BC4CE036DF4B9C6A /* LabelFold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD1EBFF23204E03403EE4260 /* LabelFoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AFB2C0B177DB08D0ABDF10 /* Build configuration list for PBXNativeTarget "LabelFoldTests" */;
+			buildPhases = (
+				71970DA6B50FCDDA7AD7B092 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982426B5F3885CE8FDDA84A1 /* PBXTargetDependency */,
+			);
+			name = LabelFoldTests;
+			packageProductDependencies = (
+			);
+			productName = LabelFoldTests;
+			productReference = 756F432FCF7D577D41B0F3D6 /* LabelFoldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9FEFCCE686E1862F93A5A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					15E99B14987FF8FB05C0FE61 = {
+						ProvisioningStyle = Automatic;
+					};
+					475C99A8C14F4BFEF34EF8CF = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6592F264A313128BD40A5E0B;
+					};
+					6592F264A313128BD40A5E0B = {
+						ProvisioningStyle = Automatic;
+					};
+					DD1EBFF23204E03403EE4260 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 439F85BB946957FD1A04ABDF /* Build configuration list for PBXProject "LabelFold" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F906FFE5008135930024B54E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8327B208F6B0E6BF0739CB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6592F264A313128BD40A5E0B /* LabelFold */,
+				15E99B14987FF8FB05C0FE61 /* LabelFoldWidget */,
+				DD1EBFF23204E03403EE4260 /* LabelFoldTests */,
+				475C99A8C14F4BFEF34EF8CF /* LabelFoldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722901CEC8D94247BE0B5581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0CD56CF7F1764C0B2FF0C /* Assets.xcassets in Resources */,
+				62177651CED0AF8455C3871C /* PrivacyInfo.xcprivacy in Resources */,
+				627BF4CE577424F34D3FFDEC /* StarterCatalog.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9D25ED103860454CD907C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65242DBD21064CED5B83A023 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5755537C05E00AA782075BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C2FB64D33A6C8D0A48CD25 /* LabelFold.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71970DA6B50FCDDA7AD7B092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92607249A41E282FCB63A4C7 /* LabelFoldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24DE1B5D9C88E2B524C946C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7427DB5C2CFD094944AFEB98 /* CatalogJourney.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F97D2E1009A99204ADB9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C32BE154B813A03F42B5D16 /* LabelFold.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		493095C2059F2D43E0B3AF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6592F264A313128BD40A5E0B /* LabelFold */;
+			targetProxy = 363C544DFE6BCC73256C58AB /* PBXContainerItemProxy */;
+		};
+		982426B5F3885CE8FDDA84A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6592F264A313128BD40A5E0B /* LabelFold */;
+			targetProxy = 5290BB4F41E7C66ED2953492 /* PBXContainerItemProxy */;
+		};
+		D207C3EBD2FD0EFB3B9B38E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E99B14987FF8FB05C0FE61 /* LabelFoldWidget */;
+			targetProxy = 3C13DC1B6999636CEB2F4AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		186EC719351F5062CBE7ADF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				INFOPLIST_FILE = Config/Widget.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) LABELFOLD_WIDGET";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C1FFEC83EDAB95C9FF9F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Config/Phone.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BB2DE3F6AF043217254D265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				INFOPLIST_FILE = Config/Widget.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) LABELFOLD_WIDGET";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		750FDF2DE734FC85580F542F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Config/Phone.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D9D97D259DB0433626D4F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabelFold;
+			};
+			name = Debug;
+		};
+		8FBA545A4299750D881D4EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		C4AC1340E98BB9A88C60BF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelFold.app/LabelFold";
+			};
+			name = Release;
+		};
+		C9C197777DF1C7942E278A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabelFold;
+			};
+			name = Release;
+		};
+		E87ADCE1EBDF6C50E9C31060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		FCD122982B039304D45A8556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.labelfold.food.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabelFold.app/LabelFold";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7185407F6A955A244C139F /* Build configuration list for PBXNativeTarget "LabelFold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750FDF2DE734FC85580F542F /* Debug */,
+				44C1FFEC83EDAB95C9FF9F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		192A3F0290E408E29F81C3F5 /* Build configuration list for PBXNativeTarget "LabelFoldWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				186EC719351F5062CBE7ADF3 /* Debug */,
+				4BB2DE3F6AF043217254D265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		439F85BB946957FD1A04ABDF /* Build configuration list for PBXProject "LabelFold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E87ADCE1EBDF6C50E9C31060 /* Debug */,
+				8FBA545A4299750D881D4EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47AFB2C0B177DB08D0ABDF10 /* Build configuration list for PBXNativeTarget "LabelFoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD122982B039304D45A8556 /* Debug */,
+				C4AC1340E98BB9A88C60BF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8DCEA868B609CBD046025919 /* Build configuration list for PBXNativeTarget "LabelFoldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9D97D259DB0433626D4F95 /* Debug */,
+				C9C197777DF1C7942E278A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9FEFCCE686E1862F93A5A55 /* Project object */;
+}

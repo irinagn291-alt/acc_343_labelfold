@@ -1,0 +1,1 @@
+aliments,etiquetes,ingredients,nutrició,al·lèrgens,comparar,codis de barres

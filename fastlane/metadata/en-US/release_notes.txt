@@ -1,0 +1,1 @@
+Initial release of LabelFold, with food-label search and barcode scanning, a personal collection, notes, nutrient comparisons, allergen flags, offline starter products and a widget.

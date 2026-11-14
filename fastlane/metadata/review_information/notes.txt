@@ -1,0 +1,7 @@
+LabelFold és una aplicació en anglès per a iPhone i iPad amb un widget. S'obre directament a Collection, sense registre ni inici de sessió. La col·lecció comença buida; no hi ha cap mode ni compte de demostració.
+
+Per revisar-la, obriu Find a product i seleccioneu un dels sis productes inclosos per desar-lo i veure'n l'etiqueta. Afegiu-ne un altre per provar la comparació a Compare. A Allergens podeu seleccionar categories i tornar a una etiqueta per revisar les coincidències. També podeu editar una nota i marcar o desmarcar un preferit.
+
+El catàleg permet cercar a Open Food Facts en línia o escanejar un codi de barres. L'escàner sol·licita accés a la càmera en dispositius compatibles; si no està disponible o es denega l'accés, es pot escriure el codi. Les cerques envien el terme o el codi a Open Food Facts. Les imatges i els enllaços externs també utilitzen la xarxa.
+
+El widget mostra un resum dels preferits.
