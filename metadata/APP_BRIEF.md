@@ -1,4 +1,4 @@
-<!-- gf-brief source=5ef409e9184dabf23c35548aa84e14906ac6dcadca6c86f1b52ce42ae5afd894 written=2026-11-14T16:30:29+03:00 -->
+<!-- gf-brief source=5ef409e9184dabf23c35548aa84e14906ac6dcadca6c86f1b52ce42ae5afd894 written=2026-11-14T16:41:15+03:00 -->
 # LabelFold
 
 ## What it is
