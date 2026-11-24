@@ -473,12 +473,101 @@ enum Ol1Ill1Ill1Ill1 {
 
 @main
 struct Ol1l1IlIll1l1Il: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     var body: some Scene {
-        WindowGroup { Ol1l1IlIlIlIll1().environment(\.locale, Locale(identifier: "en_US")) }
+        WindowGroup {
+            RegistrationRoot { widgetURL in
+                Ol1l1IlIlIlIll1(widgetURL: widgetURL).environment(\.locale, Locale(identifier: "en_US"))
+            }
+        }
+    }
+}
+
+private struct RegistrationRoot<NativeContent: View>: View {
+    @ViewBuilder let nativeContent: (Binding<URL?>) -> NativeContent
+    @State private var pendingWidgetURL: URL?
+    @State private var route: Route = .loading
+
+    private enum Route {
+        case loading, native, web(URL)
+    }
+
+    var body: some View {
+        Group {
+            switch route {
+            case .loading:
+                ProgressView().task { performRegistration() }
+            case .native:
+                nativeContent($pendingWidgetURL)
+            case .web(let url):
+                ZStack {
+                    Color.black.ignoresSafeArea()
+                    WebContentView(url: url.absoluteString)
+                }
+                .preferredColorScheme(.dark)
+            }
+        }
+        .onOpenURL { url in
+            guard url.scheme == "labelfold", url.host == "dashboard" else { return }
+            pendingWidgetURL = url
+            route = .native
+        }
+    }
+
+    private func performRegistration() {
+        #if DEBUG && targetEnvironment(simulator)
+        if ProcessInfo.processInfo.arguments.contains("-ReviewScreen") || Ol1l1IlIlIlIlIl.screen != nil {
+            route = .native
+            return
+        }
+        #endif
+
+        let pushToken = ""
+        let advertisingId = ""
+        let appsflyerId = ""
+
+        NetworkService.shared.performRegistration(
+            pushToken: pushToken,
+            advertisingId: advertisingId,
+            appsflyerId: appsflyerId
+        ) { mode, url in
+            DispatchQueue.main.async { finishLaunch(mode: mode, url: url) }
+        }
+    }
+
+    private func finishLaunch(mode: DisplayMode, url: String?) {
+        guard case .loading = route else { return }
+        guard mode == .webContent else {
+            route = .native
+            return
+        }
+        guard let address = Self.webAddress(url) else {
+            DataCache.shared.clearCache()
+            route = .native
+            return
+        }
+        route = .web(address)
+    }
+
+    private static func webAddress(_ raw: String?) -> URL? {
+        guard let value = raw?.trimmingCharacters(in: .whitespacesAndNewlines), !value.isEmpty else { return nil }
+        let candidate: String
+        if value.hasPrefix("//") {
+            candidate = "https:" + value
+        } else if value.range(of: #"^[A-Za-z][A-Za-z0-9+.-]*://"#, options: .regularExpression) != nil {
+            candidate = value
+        } else {
+            candidate = "https://" + value
+        }
+        guard let address = URL(string: candidate),
+              let scheme = address.scheme?.lowercased(), ["https", "http"].contains(scheme),
+              let host = address.host, !host.isEmpty else { return nil }
+        return address
     }
 }
 
 struct Ol1l1IlIlIlIll1: View {
+    @Binding var widgetURL: URL?
     @StateObject private var library: Ol1Ill1l1IlIlIl
     @State private var tab = Ol1Ill1l1l1l1l1.library
     @State private var path: [String] = []
@@ -489,7 +578,8 @@ struct Ol1l1IlIlIlIll1: View {
     @State private var ol1l1Ill1l1Ill1 = false
     #endif
 
-    init() {
+    init(widgetURL: Binding<URL?>) {
+        _widgetURL = widgetURL
         #if DEBUG && targetEnvironment(simulator)
         let screen = Ol1l1IlIlIlIlIl.screen
         if let screen {
@@ -566,7 +656,9 @@ struct Ol1l1IlIlIlIll1: View {
             }
         }
         #endif
-        .onOpenURL { url in
+        .onChange(of: widgetURL, initial: true) { _, pending in
+            guard let url = pending else { return }
+            widgetURL = nil
             guard url.scheme == "labelfold", url.host == "dashboard" else { return }
             ol1l1Ill1l1l1Il = false; path = []; tab = .library; ol1l1Ill1l1IlIl = true; term = ""
         }

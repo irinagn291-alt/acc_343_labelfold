@@ -8,14 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0C32BE154B813A03F42B5D16 /* LabelFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D8236291B830FCA5AA5FC4 /* LabelFold.swift */; };
+		1720A72E36D6A811BFB20606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2523B4792FCE2069A895E /* AppDelegate.swift */; };
+		36F41D7131526D8903364EF4 /* WebContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1096922A9C129D355825E8E9 /* WebContentView.swift */; };
 		62177651CED0AF8455C3871C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FE6F5AFCC011C19C7386AC89 /* PrivacyInfo.xcprivacy */; };
 		627BF4CE577424F34D3FFDEC /* StarterCatalog.json in Resources */ = {isa = PBXBuildFile; fileRef = C88DE2003845365701A74864 /* StarterCatalog.json */; };
+		641800821EBE9D00BB78EEE6 /* BlackExternalLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2474BFBB49E8D8B7E0B46C61 /* BlackExternalLinks.swift */; };
 		65242DBD21064CED5B83A023 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FE6F5AFCC011C19C7386AC89 /* PrivacyInfo.xcprivacy */; };
+		6A79B034DAB2254731511E2F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DFDD2778272735C19EF86E /* NetworkService.swift */; };
+		727A508EDB4881CF9EC3EF6A /* DisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257C1AFBD10BDE1B372AB4C8 /* DisplayMode.swift */; };
 		7427DB5C2CFD094944AFEB98 /* CatalogJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1263CD94983E7F0207F50E11 /* CatalogJourney.swift */; };
+		9232C2F78ACDE457269C9977 /* SessionVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477008A2A97203287F5DE2B1 /* SessionVault.swift */; };
 		92607249A41E282FCB63A4C7 /* LabelFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA206CD3B50F5C40CD9EFF3D /* LabelFoldTests.swift */; };
 		95F0CD56CF7F1764C0B2FF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E71495DA8BB9F93DDD90049 /* Assets.xcassets */; };
 		B7A61E742C8CED8ED3755E0C /* LabelFoldWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CA5B56DA03B9C4B1F10B1CD8 /* LabelFoldWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1A526FB9530491AFC1B3F3F /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002C6005DEAA6D0F7C461A /* APIConfig.swift */; };
+		CDD2842B8A2561D5D82E5D1E /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBE686F6FB66AA96BE9B8B /* AppRouter.swift */; };
+		D51F3BDC9B4D4257EC3E6AEB /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571EE17B71229D652337D476 /* AppConfiguration.swift */; };
 		E7C2FB64D33A6C8D0A48CD25 /* LabelFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D8236291B830FCA5AA5FC4 /* LabelFold.swift */; };
+		EC8150E9246764ED2E201B7E /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E13063E7FA30594B7DE36 /* DataCache.swift */; };
+		ED36B2732CD9AED7B9F77FB7 /* BlackResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4578A85B5FE0BEDD2FA48D49 /* BlackResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,15 +68,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0AEBE686F6FB66AA96BE9B8B /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		1096922A9C129D355825E8E9 /* WebContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebContentView.swift; sourceTree = "<group>"; };
 		1263CD94983E7F0207F50E11 /* CatalogJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogJourney.swift; sourceTree = "<group>"; };
+		154E13063E7FA30594B7DE36 /* DataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
+		2474BFBB49E8D8B7E0B46C61 /* BlackExternalLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackExternalLinks.swift; sourceTree = "<group>"; };
+		257C1AFBD10BDE1B372AB4C8 /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
 		2E71495DA8BB9F93DDD90049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35D8236291B830FCA5AA5FC4 /* LabelFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFold.swift; sourceTree = "<group>"; };
+		4578A85B5FE0BEDD2FA48D49 /* BlackResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = wrapper.cfbundle; path = BlackResources.bundle; sourceTree = "<group>"; };
+		477008A2A97203287F5DE2B1 /* SessionVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionVault.swift; sourceTree = "<group>"; };
+		57002C6005DEAA6D0F7C461A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		571EE17B71229D652337D476 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		64DFDD2778272735C19EF86E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		756F432FCF7D577D41B0F3D6 /* LabelFoldTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LabelFoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C7B0A951BB7FEDFF8D2F339 /* LabelFoldUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LabelFoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88DE2003845365701A74864 /* StarterCatalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarterCatalog.json; sourceTree = "<group>"; };
 		CA5B56DA03B9C4B1F10B1CD8 /* LabelFoldWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = LabelFoldWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE477FB3BC4CE036DF4B9C6A /* LabelFold.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LabelFold.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA206CD3B50F5C40CD9EFF3D /* LabelFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFoldTests.swift; sourceTree = "<group>"; };
+		DFC2523B4792FCE2069A895E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE6F5AFCC011C19C7386AC89 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,9 +95,27 @@
 		31BD39157D98BB77D2FB6051 /* Phone */ = {
 			isa = PBXGroup;
 			children = (
+				57002C6005DEAA6D0F7C461A /* APIConfig.swift */,
+				DFC2523B4792FCE2069A895E /* AppDelegate.swift */,
 				2E71495DA8BB9F93DDD90049 /* Assets.xcassets */,
 			);
 			path = Phone;
+			sourceTree = "<group>";
+		};
+		570CA0AC62B4845A9BD48B6D /* Black */ = {
+			isa = PBXGroup;
+			children = (
+				571EE17B71229D652337D476 /* AppConfiguration.swift */,
+				0AEBE686F6FB66AA96BE9B8B /* AppRouter.swift */,
+				2474BFBB49E8D8B7E0B46C61 /* BlackExternalLinks.swift */,
+				4578A85B5FE0BEDD2FA48D49 /* BlackResources.bundle */,
+				154E13063E7FA30594B7DE36 /* DataCache.swift */,
+				257C1AFBD10BDE1B372AB4C8 /* DisplayMode.swift */,
+				64DFDD2778272735C19EF86E /* NetworkService.swift */,
+				477008A2A97203287F5DE2B1 /* SessionVault.swift */,
+				1096922A9C129D355825E8E9 /* WebContentView.swift */,
+			);
+			path = Black;
 			sourceTree = "<group>";
 		};
 		6185403F8E46DC1554864C38 /* UITests */ = {
@@ -117,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				35D8236291B830FCA5AA5FC4 /* LabelFold.swift */,
+				570CA0AC62B4845A9BD48B6D /* Black */,
 				6667DF440B2C067B162D4D71 /* Catalog */,
 				FE469A0DB6DDF5BD5F58A606 /* Config */,
 				31BD39157D98BB77D2FB6051 /* Phone */,
@@ -263,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95F0CD56CF7F1764C0B2FF0C /* Assets.xcassets in Resources */,
+				ED36B2732CD9AED7B9F77FB7 /* BlackResources.bundle in Resources */,
 				62177651CED0AF8455C3871C /* PrivacyInfo.xcprivacy in Resources */,
 				627BF4CE577424F34D3FFDEC /* StarterCatalog.json in Resources */,
 			);
@@ -307,7 +349,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A526FB9530491AFC1B3F3F /* APIConfig.swift in Sources */,
+				D51F3BDC9B4D4257EC3E6AEB /* AppConfiguration.swift in Sources */,
+				1720A72E36D6A811BFB20606 /* AppDelegate.swift in Sources */,
+				CDD2842B8A2561D5D82E5D1E /* AppRouter.swift in Sources */,
+				641800821EBE9D00BB78EEE6 /* BlackExternalLinks.swift in Sources */,
+				EC8150E9246764ED2E201B7E /* DataCache.swift in Sources */,
+				727A508EDB4881CF9EC3EF6A /* DisplayMode.swift in Sources */,
 				0C32BE154B813A03F42B5D16 /* LabelFold.swift in Sources */,
+				6A79B034DAB2254731511E2F /* NetworkService.swift in Sources */,
+				9232C2F78ACDE457269C9977 /* SessionVault.swift in Sources */,
+				36F41D7131526D8903364EF4 /* WebContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,10 +406,14 @@
 		44C1FFEC83EDAB95C9FF9F8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Config/Phone.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan a food package barcode to find its product in Open Food Facts.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use the microphone to record sound in a video you attach to a form.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose photos or videos from your library to attach to a form.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,10 +446,14 @@
 		750FDF2DE734FC85580F542F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Config/Shared.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Config/Phone.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan a food package barcode to find its product in Open Food Facts.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use the microphone to record sound in a video you attach to a form.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose photos or videos from your library to attach to a form.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +517,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -470,7 +530,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,7 +613,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -572,7 +632,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

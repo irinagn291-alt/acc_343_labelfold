@@ -48,5 +48,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(INFOPLIST_KEY_NSMicrophoneUsageDescription)</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(INFOPLIST_KEY_NSPhotoLibraryUsageDescription)</string>
 </dict>
 </plist>

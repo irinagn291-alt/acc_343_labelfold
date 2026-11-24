@@ -1,1 +1,3 @@
-Initial release of LabelFold, with food-label search and barcode scanning, a personal collection, notes, nutrient comparisons, allergen flags, offline starter products and a widget.
+Version 1.1 keeps LabelFold polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app
